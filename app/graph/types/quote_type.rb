@@ -1,4 +1,4 @@
-Quotetype = GraphQL::ObjectType.define.do
+QuoteType = GraphQL::ObjectType.define.do
 	name "Quote"
 	description "A quote with a title, boday, author, and type"
 	#Expose these fields in the quote model
