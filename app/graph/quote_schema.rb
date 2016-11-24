@@ -1,3 +1,1 @@
-QuoteSchema = GraphQL::Schema.define do
-  query QueryType
-end
+QuoteSchema = GraphQL::Schema.new(query: QueryType)

@@ -8,4 +8,4 @@ class QueriesController < ApplicationController
     result = QuoteSchema.execute(query_string, variables: query_variables)
     render json: result
   end
-end
+end	
